@@ -258,7 +258,7 @@ input {
 
 .nav__logo:hover{
   text-decoration: none;
-  color: rgb(189, 189, 189);
+  color: #F47A20;
   transition: 1s;
 }
 
@@ -341,7 +341,7 @@ input {
 .nav__link:hover {
   color: white;
   text-decoration: none;
-  color: rgb(145, 145, 145);
+  color: #F47A20;
   transition: 1s;
 }
 
@@ -350,7 +350,7 @@ input {
   top: .75rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -368,7 +368,7 @@ input {
 
 .scroll-header .nav__logo,
 .scroll-header .nav__toggle {
-  color: var(--title-color);
+  color: #fff;
 }
 
 /* Active link */
@@ -1059,7 +1059,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: var(--first-color);
+  background-color: #2e7fed;
   padding: .5rem;
   display: flex;
   opacity: .9;
@@ -1068,7 +1068,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-alt);
+  background-color: #F47A20;
   opacity: 1;
 }
 
@@ -1153,7 +1153,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     text-transform: initial;
   }
   .nav__link:hover {
-    color: rgb(194, 194, 194);
+    color: #F47A20;
   }
   .nav__dark {
     position: initial;
@@ -1173,19 +1173,19 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     display: none;
   }
   .change-theme {
-    color: var(--white-color);
+    color: #2E7FED;
   }
   .active-link::before {
     background-color: var(--white-color);
   }
   .scroll-header .nav__link {
-    color: var(--text-color);
+    color: #fff;
   }
   .scroll-header .active-link {
-    color: var(--title-color);
+    color: #fff;
   }
   .scroll-header .active-link::before {
-    background-color: var(--title-color);
+    background-color: linear-gradient(to right, #a9cdff 0%,#0069fc 100%);
   }
   .scroll-header .change-theme {
     color: var(--text-color);
