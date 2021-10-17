@@ -21,6 +21,7 @@ class CreateMabasTable extends Migration
             $table->integer('nim');
             $table->string('kelompok');
             $table->string('peran');
+            $table->string('kakak')->default('-');
             $table->timestamps();
         });
     }

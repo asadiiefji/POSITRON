@@ -12,6 +12,6 @@ class Maba extends Model
     protected $table = 'maba';
 
     protected $fillable = [
-        'nama', 'programstudi', 'offering', 'nim', 'kelompok', 'peran'
+        'id','nama', 'programstudi', 'offering', 'nim', 'kelompok', 'peran'
     ];
 }
